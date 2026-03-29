@@ -433,7 +433,7 @@ contexts:
         1: punctuation.definition.raw.block.fenced.markdown
         2: meta.definition.language.raw.block.fenced.markdown
       push:
-        - meta_scope: markup.raw.block.markdown markup.raw.block.fenced.markdown meta.language.stata 
+        - meta_scope: markup.raw.block.markdown markup.raw.block.fenced.markdown meta.language.stata
         - meta_content_scope: source.stata
         - match: '^(\1)[ \t]*(\n|$)'
           captures:
